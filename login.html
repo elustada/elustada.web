@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="/img/logo.png">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <div class="login-container">
+        <h1 style="text-align: center;">Iniciar Sesión</h1>
+        <form id="loginForm">
+            <input type="text" id="username" name="username" placeholder="Usuario" required><br>
+            <input type="password" id="password" name="password" placeholder="Contraseña" required><br>
+
+            <button type="button" onclick="validateLogin()">Ingresar</button>
+        </form>
+    </div>
+    <br><br>
+
+    <!-- <h2 style="text-align: center; color: rgb(165, 170, 170);">Si no tienes una cuenta</h2>
+
+    <div class="login-container">
+        <h1 style="text-align: center;">Registrarte</h1>
+        <form id="loginForm">
+            <input type="text" id="newUsername" name="newUsername" placeholder="Usuario" required><br>
+            <input type="password" id="newPassword" name="newPassword" placeholder="Contraseña" required><br>
+
+            <button type="button" onclick="registerUser()">Guardar</button>
+        </form>
+    </div> -->
+
+    <script src="/js/login.js"></script>
+</body>
+</html>

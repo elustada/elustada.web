@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/card-slider.css">
+    <link rel="stylesheet" href="css/miembros.css">
+    <script src="js/card-slider.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <title>ELUSTADA</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#estadisticas">Estadísticas</a></li>
+            <li><a href="#nosotros-h1">Nosotros</a></li>
+            <li><a href="index.html">Salir</a></li>
+        </ul>
+    </nav>
+    <section class="logo">
+        <img src="img/logo.png" alt="...">
+    </section>
+    <main>
+        <section class="titulo">
+            <div class="texto">
+                <legend><a id="historia">Historia</a></legend><br>
+                <p>A lo largo de la historia, la búsqueda de iluminación artificial ha sido una constante para la humanidad. Se inició con antorchas y lámparas de aceite, que proporcionaban una luz tenue en la oscuridad. Con el tiempo, evolucionaron hacia lámparas de aceite más avanzadas, utilizando mechas mejoradas y recipientes de barro o metal para lograr una luz más estable.
+
+                    En el siglo XIX, las lámparas de queroseno surgieron como una alternativa más brillante y duradera. Sin embargo, el mayor avance llegó con la invención de la lámpara incandescente por Thomas Edison en 1879. Esta innovación empleaba un filamento de carbono en una bombilla de vidrio, produciendo una luz brillante y cálida que revolucionó la iluminación en hogares y ciudades.
+                    
+                    Posteriormente, las lámparas fluorescentes surgieron en la década de 1930, utilizando un tubo de gas y un recubrimiento de fósforo para generar luz visible de manera más eficiente, especialmente en entornos comerciales e industriales.
+                    
+                    La búsqueda de eficiencia energética y mayor durabilidad llevó a la popularización de las lámparas LED. Estos diodos emisores de luz, introducidos en tiempos más recientes, logran una iluminación brillante y de alta calidad con un consumo de energía significativamente menor. Las lámparas LED se convirtieron en la opción preferida para iluminar hogares, espacios públicos y comerciales, marcando un hito en la historia de la iluminación.
+                    
+                    En resumen, desde las primitivas antorchas hasta las modernas lámparas LED, la humanidad ha evolucionado en su capacidad para vencer la oscuridad y obtener una luz más eficiente y duradera. Cada avance tecnológico ha llevado a una mayor comodidad y seguridad, asegurando que la humanidad siga iluminando su camino hacia el futuro.</p>
+            </div>
+            <img src="img/lamparas/Light-Fixture-PNG-File.png" alt="...">
+        </section>
+
+        <br><br><br><br>    
+        <section class="kolb">
+            <div class="mis-vis">
+                <legend><a>Misión</a></legend><br>
+                <p>Nuestra misión es diseñar y fabricar lámparas de alta calidad utilizando exclusivamente materiales sostenibles,mediante el uso de autopartes, siendo respetuosos con el medio ambiente. Nos comprometemos a ofrecer soluciones de iluminación innovadoras que no comprometan la calidad ni el diseño, al tiempo que reducimos el impacto ambiental.</p>
+            </div>
+            <div class="mis-vis">
+                <legend><a>Visión</a></legend><br>
+                <p>Nuestra visión es ser líderes mundiales en la industria de la iluminación sostenible, creando lámparas innovadoras con autopartes en desuso. Queremos transformar residuos en productos únicos, promoviendo la economía circular y la protección del medio ambiente. Buscamos educar a nuestros clientes sobre la importancia de elegir opciones sostenibles y establecer alianzas estratégicas con organizaciones ambientales. Nos esforzamos por impulsar la eficiencia energética y la concienia ambiental en toda nuestra cadena de valor.</p>
+            </div>
+        </section>
+        <br><br> 
+
+        <br><br><br><br>
+        <h1 style="font-size: 3.5em; text-align: center;">Productos</h1><br> 
+        <section id="productos" class="productos">    
+            <div class="prod-unit">
+                <img src="/img/lamparas/lampara-de-mesa-blanca.png" alt="...">
+                <h2>Lámpara Blanca</h2>
+                <span>$5,999</span>
+                <div class="btn-comprar">
+                    <button id="myBtn">Comprar</button>
+                    <div id="myModal"> 
+                        <!-- Modal -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="contenido">
+                                <img src="/img/lamparas/lampara-de-mesa-blanca.png" alt="">
+                                <div>
+                                    <h1>Lámpara de ejemplo</h1><br>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum reprehenderit illum error maiores natus adipisci cupiditate! Et hic molestiae repellendus nemo qui sunt quaerat vel. Modi vitae itaque vero ullam?</p>
+                                    <br>
+                                    <button class="comprar">Comprar</button>
+                                    <button>Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        <br><br><br><br><br>
+        <h1 id="nosotros-h1">Nosotros</h1>
+        <section id="nosotros">
+            <div class="miembro">
+                <img src="img/Nosotros/jenaro.png" alt="...">
+                <h2>Finanzas</h2>
+                <h3>López, Jenaro</h3>
+            </div>
+            <div class="miembro">
+                <img src="img/Nosotros/nahuel.png" alt="...">
+                <h2>Dirección</h2>
+                <h3>Salinas, Nahuel</h3>
+            </div>
+            <div class="miembro">
+                <img src="img/Nosotros/uriel.png" alt="...">
+                <h2>Producción</h2>
+                <h3>Blanco, Uriel</h3>
+            </div>
+        </section>
+        <video src="/img/vid/vid.mp4" style="width: 60em; display: grid; margin: auto; border-radius: 1em;" controls></video>
+        <section id="graf">
+            <h1 id="estadisticas">Nuestras estadísticas</h1>
+            
+            <div class="graficos">
+                <!--<canvas id="grafica"></canvas>-->
+                <br><br><br>
+                <canvas id="graficoBarra"></canvas>
+                <br><br><br>
+                <canvas id="graficoLineas"></canvas>
+            </div>
+            
+        </section>
+
+        <iframe src="/descarga/ART.pdf" style="width: 50em; height: 40em ;display: grid; margin: auto; border-radius: 1em;" frameborder="0"></iframe>
+        <br><br><br><br>
+
+        <section class="sec-contac">
+            <legend><a id="contacto">Contacto</a></legend><br>
+                <div class="formulario"><h2>Enviar correo electrónico</h2>
+                    <form method="post" action="https://formsubmit.co/elustadaarg@gmail.com">
+                        <label for="email">Tu nombre:</label><br>
+                        <input type="text" name="name" required><br>
+                    
+                    <label for="email">Tu correo electrónico:</label><br>
+                    <input type="email" name="email" required><br>
+                
+                    <label for="asunto">Asunto:</label><br>
+                    <input type="text" name="subject" required><br>
+                
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea  rows="8" maxlength="240" name="comments" required></textarea><br>
+                
+                    <input id="submit" type="submit" value="Enviar">
+                    <!--<input type="hidden" name="_next" value="https://modboxdev.github.io/secciones/contacto.html">-->
+                    <!--<input type="hidden" name="_captcha" value="false">-->
+                    </form>
+                </div>
+    </section>
+    </main>
+
+    <a id="scrollToTop" href="#" title="Volver arriba">↑</a>
+
+    <footer>
+        <hr>
+        <h5>Elustada - Todos los derechos reservados 2023</h5>
+    </footer>
+
+    <!-- Gráficos JavaScript -->
+    <script>
+        const labels = ["Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+        const colors = ['rgb(69,177,223)', 'rgb(99,201,122)', 'rgb(203,82,82)', 'rgb(229,224,88)', 'rgb(109,124,88)', 'rgb(159,234,78)'];
+        const graph = document.querySelector("#grafica");
+        const data = {
+            labels: labels,
+            datasets: [{
+                data: ["Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+                backgroundColor: colors
+            }]
+        };
+        const config = {
+            type: 'pie',
+            data: data,
+        };
+        new Chart(graph, config);
+
+        ///////////Gráfico de Barras///////////
+
+        const labelsBarra = ['Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+        const graphBarra = document.querySelector("#graficoBarra");
+        const dataBarra = {
+            labels: labelsBarra,
+            datasets: [{
+                label:"Ventas esperadas",
+                data: [10, 8, 15, 8, 16],
+                backgroundColor: 'rgba(9, 129, 176)'
+            }]
+        };
+
+        const configBarras = {
+            type: 'bar',
+            data: dataBarra,
+        };
+        new Chart(graphBarra, configBarras);
+
+        /////////Gráfico Complejo/////////
+            const labelsLineas = ["Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+            
+        const dataset1 = {
+            label: "Ventas",
+            data: [10, 6, 15, 8, 6],
+            borderColor: 'rgba(248, 37, 37, 0.8)',
+            fill: false,
+            tension: 0.1
+        };
+        
+        const dataset2 = {
+            label: "Pagos en Efectivo",
+            data: [6, 3, 5, 2, 2],
+            borderColor: 'rgba(69, 248, 84, 0.8)',
+            fill: false,
+            tension: 0.1
+        };
+        
+        const dataset3 = {
+            label: "Pagos con Tarjeta",
+            data: [4, 3, 10, 6, 4],
+            borderColor: 'rgba(69, 140, 248, 0.8)',
+            fill: false,
+            tension: 0.1
+        };
+        
+        const graphLineas = document.querySelector("#graficoLineas");
+        
+        const dataLineas = {
+            labels: labelsLineas,
+            datasets: [dataset1, dataset2, dataset3]
+        };
+        
+        const configLineas = {
+            type: 'line',
+            data: dataLineas,
+        };
+        
+        new Chart(graphLineas, configLineas);
+
+    </script>
+
+    <!--Modal-->
+    <script src="/js/modal.js"></script>
+
+    <!-- Flecha -->
+    <script>
+        window.onscroll = function() {
+        var scrollToTop = document.getElementById("scrollToTop");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTop.style.display = "block";
+            } else {
+                scrollToTop.style.display = "none";
+            }
+        };
+        
+        document.getElementById("scrollToTop").addEventListener("click", function() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+        });
+    </script>
+    
+</body>
+</html>

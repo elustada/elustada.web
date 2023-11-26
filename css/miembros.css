@@ -1,0 +1,39 @@
+.miembro{
+    margin: auto;
+    text-align: center;
+}
+
+.miembro img:hover{
+    filter: drop-shadow(0em 0em .5em #da7e7e);
+    transition: .5s;
+}
+
+.miembro h3{
+    margin-top: .4em;
+    font-weight: 400;
+    opacity: .9;
+    margin-bottom: 6em;
+}
+
+.miembro img{
+    width: 12em;
+    height: 12em;
+    margin-bottom: em;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+#nosotros{
+    width: 50em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#nosotros-h1{
+    display: grid;
+    font-size: 3.5em;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1em;
+}
