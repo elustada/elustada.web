@@ -3,6 +3,7 @@
 :root{
     --fondo: rgb(32, 30, 30); 
     --ColoFuente: rgb(231, 227, 227);
+    --elustada: #f78b4dd0;
 }
 
 *{
@@ -225,6 +226,7 @@ button:hover{
 
 .modal-content p{
     text-align: justify;
+    text-indent: 1.6em;
     width: 100%;
 }
 
@@ -253,6 +255,7 @@ button:hover{
 
     .productos{
         display: grid;
+        grid-template-columns: repeat(3, 1fr);
         margin: auto;
     }
 
@@ -268,6 +271,8 @@ button:hover{
         margin: auto;
         width: 20em;
         margin-bottom: 1em;
+        border-radius: 3em;
+        filter: drop-shadow(.1em .3em .6em var(--elustada));
     }
 
     .prod-unit .btn-comprar{
